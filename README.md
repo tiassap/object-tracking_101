@@ -1,5 +1,4 @@
 # object-tracking_101
-
 Basic implementation of object tracking algorithm.
 
 
