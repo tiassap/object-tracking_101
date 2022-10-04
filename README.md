@@ -2,21 +2,22 @@
 Basic implementation of object tracking algorithm.
 
 
-[![Watch the video](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FNNet%2F2BnG8XEZoH.png?alt=media&token=25e2386e-4ea5-499a-8981-117a1e5941d8)](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FNNet%2FrOVg603WnZ.mp4?alt=media&token=dbf5cea6-d982-4758-99a4-0c36ddadc253)
-_Object tracking with SORT algorithm on MOT-15. Faster R-CNN is used as object detection algorithm. Still have some problems with occlusion here. (Short term occlusion is okay)._
+
+<img src="./readme_data/object-tracking_101.gif" width="50%" /> \
+_Object tracking with SORT algorithm on MOT-15. Faster R-CNN is used as object detection algorithm. Still have some problems with occlusion here. (Short term occlusion is okay). [See video](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FNNet%2FrOVg603WnZ.mp4?alt=media&token=dbf5cea6-d982-4758-99a4-0c36ddadc253)_
 
 Run this command line for real-time inference using video camera. Note: press `Esc` to exit.
-```
+```bash
 $ python main.py 
 ```
 
 For inference on video:
-```
+```bash
 $ python main.py --video <path/to/video>
 ```
 
-To save output video:
-```
+To save output video (use arg `--video <path/to/video>` to use video file):
+```bash
 $ python main.py --save
 ```
 
